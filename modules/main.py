@@ -219,7 +219,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your 𝙉𝙖𝙢𝙚 or send '/Lover' for use default🌚.**\n **For an Example** :@SmartBoy_ApnaMS")
+    await editable.edit("**Enter Your 𝙉𝙖𝙢𝙚 or send '/Lover' for use default🌚.**\n**For an Example**:\n @SmartBoy_ApnaMS")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -456,7 +456,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your 𝙉𝙖𝙢𝙚 or send '/Hater'for use default🌚.**\n **For an Example** : @SmartBoy_ApnaMS")
+    await editable.edit("**Enter Your 𝙉𝙖𝙢𝙚 or send '/Hater'for use default🌚.**\n**For an Example**:\n @SmartBoy_ApnaMS")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
