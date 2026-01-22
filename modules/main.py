@@ -228,7 +228,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         CR = raw_text3
         
-    await editable.edit("**Enter Your PW 𝗧𝗼𝗸𝗲𝗻 For 𝐌𝐏𝐃 𝐔𝐑𝐋  or send '/vip' for use default🫣.**")
+    await editable.edit("**Enter Your PW 𝗧𝗼𝗸𝗲𝗻 For 𝐌𝐏𝐃 𝐔𝐑𝐋 or send '/vip' for use default🫣**")
     input4: Message = await bot.listen(editable.chat.id)
     raw_text4 = input4.text
     await input4.delete(True)
@@ -391,7 +391,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text( "𝙀𝙑𝙀𝙍𝙔𝙏𝙃𝙄𝙉𝙂 𝙄𝙎 𝘿𝙊𝙉𝙀  𝘿𝙊𝙉𝙀 \n\n **NOW TIME FOR REACTIONS✅** \n\n **Reaction khud doge ya kuch aisa waisa bolna padega😂**")
+    await m.reply_text( "𝙀𝙑𝙀𝙍𝙔𝙏𝙃𝙄𝙉𝙂 𝙄𝙎 𝘿𝙊𝙉𝙀  𝘿𝙊𝙉𝙀 \n\n**NOW TIME FOR REACTIONS✅** \n\n**Reaction khud doge ya kuch aisa waisa bolna padega😂**")
 
 # Advance
 
@@ -456,7 +456,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your 𝙉𝙖𝙢𝙚 or send '/Hater' for use default🌚.**\n **For an Example** : @SmartBoy_ApnaMS")
+    await editable.edit("**Enter Your 𝙉𝙖𝙢𝙚 or send '/Hater'for use default🌚.**\n **For an Example** : @SmartBoy_ApnaMS")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -465,7 +465,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         CR = raw_text3
         
-    await editable.edit("**Enter Your PW 𝗧𝗼𝗸𝗲𝗻 For 𝐌𝐏𝐃 𝐔𝐑𝐋  or send '/vip' for use default🫣.**")
+    await editable.edit("**Enter Your PW 𝗧𝗼𝗸𝗲𝗻 For 𝐌𝐏𝐃 𝐔𝐑𝐋 or send '/vip' for use default**")
     input4: Message = await bot.listen(editable.chat.id)
     raw_text4 = input4.text
     await input4.delete(True)
@@ -554,7 +554,7 @@ async def txt_handler(bot: Client, m: Message):
             try:  
         
                 cc = f'**📹 VID_ID: {str(count).zfill(3)}.\n\n📒 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By𓆩♛𓆪 : {CR}\n\n**∘𒆜━━━❀💛𝐌𝐒💚❀━━━𒆜∘**'
-                cc1 = f'**🗃️ PDF_ID: {str(count).zfill(3)}.\n\n📒 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted Extracted By𓆩♛𓆪 : {CR}\n\n**∘𒆜━━━❀💛𝐌𝐒💚❀━━━𒆜∘**'
+                cc1 = f'**🗃️ PDF_ID: {str(count).zfill(3)}.\n\n📒 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By𓆩♛𓆪 : {CR}\n\n**∘𒆜━━━❀💛𝐌𝐒💚❀━━━𒆜∘**'
                     
                 
                 if "drive" in url:
@@ -633,7 +633,7 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("𝙀𝙑𝙀𝙍𝙔𝙏𝙃𝙄𝙉𝙂 𝙄𝙎 𝘿𝙊𝙉𝙀  𝘿𝙊𝙉𝙀 \n\n **NOW TIME FOR REACTIONS✅** \n\n **Reaction khud doge ya kuch aisa waisa bolna padega😂**")
+    await m.reply_text("𝙀𝙑𝙀𝙍𝙔𝙏𝙃𝙄𝙉𝙂 𝙄𝙎 𝘿𝙊𝙉𝙀  𝘿𝙊𝙉𝙀 \n\n**NOW TIME FOR REACTIONS✅** \n\n**Reaction khud doge ya kuch aisa waisa bolna padega😂**")
 
 
 
